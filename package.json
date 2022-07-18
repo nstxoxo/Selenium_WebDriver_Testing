@@ -1,0 +1,31 @@
+{
+  "name": "selenium_webdriver_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mocha:run:test": "mocha --config .mocharc.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nstxoxo/Selenium_WebDriver_Testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nstxoxo/Selenium_WebDriver_Testing/issues"
+  },
+  "homepage": "https://github.com/nstxoxo/Selenium_WebDriver_Testing#readme",
+  "devDependencies": {
+    "@types/mocha": "^9.1.1",
+    "@types/node": "^18.0.3",
+    "@types/selenium-webdriver": "^4.1.1",
+    "chromedriver": "^103.0.0",
+    "mocha": "^10.0.0",
+    "selenium-webdriver": "^4.3.0",
+    "ts-node": "^10.8.2",
+    "typescript": "^4.7.4"
+  }
+}
